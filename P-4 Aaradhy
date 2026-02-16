@@ -1,1 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timetable</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #000; /* Black background */
+            color: #fff; /* White text */
+            font-weight: bold;
+        }
+        .header {
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .makeup-class {
+            background-color: #ffcccb; /* Light Red for Makeup Class */
+        }
+        .section-column {
+            width: 10%;
+        }
+        .time-column {
+            width: 14%;
+        }
+        .underline-text {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
 
+    <div class="header">
+        <span class="underline-text">
+            S. B. JAIN INSTITUTE OF TECHNOLOGY & RESEARCH, NAGPUR <br>
+            (NBA, An Autonomous Institute Affiliated to R.T.M. Nagpur University) <br>
+            “Emerging as a Leading Institute for Developing Conceptual and Creative Professionals” <br>
+            FIRST YEAR ENGINEERING DEPARTMENT <br>
+            SECOND SEMESTER (Group-1) <br>
+            TIME-TABLE (w.e.f. 11.02.2026)
+        </span>
+    </div>
+
+    <table>
+        <tr>
+            <th>DAY / SEC</th>
+            <th>SECTION</th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>BREAK</th> <!-- Add break column here -->
+            <th>4</th>
+            <th>5</th>
+            <th>6</th>
+        </tr>
+        
+        <!-- MONDAY -->
+        <tr>
+            <td rowspan="3">MON</td>
+            <td>A</td>
+            <td>ICLA (RK) (F101)</td>
+            <td>PRACTICAL</td>
+            <td>Web Designing Lab (MK/MS/VP) (M307)</td>
+            <td rowspan="3"></td> <!-- Break between 3rd and 4th lecture -->
+            <td>SMP (WA) (F002)</td>
+            <td>PRACTICAL</td>
+            <td>A1-CEL (IK) (F002)</td>
+        </tr>
+        <tr>
+            <td>B</td>
+            <td>ICLA (VP) (F102)</td>
+            <td>EE (AF) (F102)</td>
+            <td>CFE (SMK) (F102)</td>
+            <td>CE (JT) (F101)</td>
+            <td class="makeup-class">MAKEUP CLASS (F101)</td>
+            <td>MATHEMATICS (M101)</td>
+        </tr>
+        <tr>
+            <td>C</td>
+            <td>ICLA (AN) (F002)</td>
+            <td>CEL (F1-SDK) (F002)</td>
+            <td>(F2-Miscellaneous)</td>
+            <td>EE (VN) (F002)</td>
+            <td>PHYSICS (P101)</td>
+            <td>CHEMISTRY (C101)</td>
+        </tr>
+
+        <!-- TUESDAY -->
+        <tr>
+            <td rowspan="3">TUE</td>
+            <td>A</td>
+            <td>CLUB HOUR / NPTEL (F102)</td>
+            <td>SELF LEARNING (F103)</td>
+            <td>CE (VS) (F103)</td>
+            <td rowspan="3"></td> <!-- Break between 3rd and 4th lecture -->
+            <td>SMPT (VP) (F201)</td>
+            <td>LLC-2 (BK) (F201)</td>
+            <td class="makeup-class">MAKEUP CLASS (F103)</td>
+        </tr>
+        <tr>
+            <td>B</td>
+            <td>ICLA (AN) (F201)</td>
+            <td>SELF LEARNING (F102)</td>
+            <td>CE (JT) (F101)</td>
+            <td>EE (YC) (F102)</td>
+            <td>LLC-2 (PH) (F002)</td>
+            <td>SMP (VC) (M309)</td>
+        </tr>
+        <tr>
+            <td>C</td>
+            <td>ICLA (AN) (F201)</td>
+            <td>LLC-2 (NC) (F002)</td>
+            <td>CFE (DR) (F002)</td>
+            <td>ICLA (AN) (F201)</td>
+            <td>LLC-2 (RD) (F101)</td>
+            <td>CLUB HOUR / NPTEL (F201)</td>
+        </tr>
+
+        <!-- WEDNESDAY -->
+        <tr>
+            <td rowspan="3">WED</td>
+            <td>A</td>
+            <td>EE (YC) (F102)</td>
+            <td>PRACTICAL</td>
+            <td>Web Designing Lab (MK/MS/VP) (F106)</td>
+            <td rowspan="3"></td> <!-- Break between 3rd and 4th lecture -->
+            <td>SMP (AWK) (F102)</td>
+            <td>CFE (SMK) (F103)</td>
+            <td>LLC-2 (KS) (F103)</td>
+        </tr>
+        <tr>
+            <td>B</td>
+            <td>ICLA (RK) (F002)</td>
+            <td>EE (VS) (F103)</td>
+            <td>SELF LEARNING (F102)</td>
+            <td>LLC-2 (NC) (F002)</td>
+            <td>CE (SDK) (F101)</td>
+            <td>CFE (DR) (F201)</td>
+        </tr>
+        <tr>
+            <td>C</td>
+            <td>ICLA (RK) (F002)</td>
+            <td>EE (VS) (F103)</td>
+            <td>SELF LEARNING (F102)</td>
+            <td>LLC-2 (NC) (F002)</td>
+            <td>CE (SDK) (F101)</td>
+            <td>CFE (DR) (F201)</td>
+        </tr>
+
+        <!-- THURSDAY -->
+        <tr>
+            <td rowspan="3">THU</td>
+            <td>A</td>
+            <td>ICLA (RK) (F101)</td>
+            <td>SELF LEARNING (F102)</td>
+            <td>CE (SMK) (F102)</td>
+            <td rowspan="3"></td> <!-- Break between 3rd and 4th lecture -->
+            <td>MAKEUP CLASS (F101)</td>
+            <td>ICLA (AN) (F201)</td>
+            <td>CFE (DR) (F102)</td>
+        </tr>
+        <tr>
+            <td>B</td>
+            <td>SELF LEARNING (F102)</td>
+            <td>CLUB HOUR / NPTEL (F102)</td>
+            <td>EE (AF) (F102)</td>
+            <td>ICLA (RK) (F002)</td>
+            <td>LLC-2 (RD) (F101)</td>
+            <td>LLC-2 (PH) (F002)</td>
+        </tr>
+        <tr>
+            <td>C</td>
+            <td>SELF LEARNING (F102)</td>
+            <td>CLUB HOUR / NPTEL (F102)</td>
+            <td>EE (AF) (F102)</td>
+            <td>ICLA (RK) (F002)</td>
+            <td>LLC-2 (RD) (F101)</td>
+            <td>LLC-2 (PH) (F002)</td>
+        </tr>
+
+        <!-- FRIDAY -->
+        <tr>
+            <td rowspan="3">FRI</td>
+            <td>A</td>
+            <td>EE (YC) (F103)</td>
+            <td>ICLA (AN) (F201)</td>
+            <td>CLUB HOUR / NPTEL (F102)</td>
+            <td rowspan="3"></td> <!-- Break between 3rd and 4th lecture -->
+            <td>SMPT (VP) (F201)</td>
+            <td>CE (JT) (F201)</td>
+            <td class="makeup-class">MAKEUP CLASS (F103)</td>
+        </tr>
+        <tr>
+            <td>B</td>
+            <td>ICLA (RD) (F101)</td>
+            <td>CE (SMK) (F102)</td>
+            <td>LLC-2 (NC) (F002)</td>
+            <td>MAKEUP CLASS (F101)</td>
+            <td>SMP (VC) (M309)</td>
+            <td>CLUB HOUR / NPTEL (F102)</td>
+        </tr>
+        <tr>
+            <td>C</td>
+            <td>ICLA (RD) (F101)</td>
+            <td>CE (SMK) (F102)</td>
+            <td>LLC-2 (NC) (F002)</td>
+            <td>MAKEUP CLASS (F101)</td>
+            <td>SMP (VC) (M309)</td>
+            <td>CLUB HOUR / NPTEL (F102)</td>
+        </tr>
+
+        <!-- SATURDAY -->
+        <tr>
+            <td rowspan="3">SAT</td>
+            <td>A</td>
+            <td>Web Designing Lab (MK/MS/VP) (F106)</td>
+            <td>ICLA (AN) (F201)</td>
+            <td>EE (YC) (F102)</td>
+            <td rowspan="3"></td> <!-- Break between 3rd and 4th lecture -->
+            <td>SMP (VC) (F102)</td>
+            <td>SMPT (RK) (F201)</td>
+            <td>CFE (NZ) (F101)</td>
+        </tr>
+        <tr>
+            <td>B</td>
+            <td class="makeup-class">MAKEUP CLASS (F103)</td>
+            <td class="makeup-class">MAKEUP CLASS (F103)</td>
+            <td>CE (VS) (F103)</td>
+            <td>CLUB HOUR / NPTEL (F201)</td>
+            <td>LLC-2 (BK) (F201)</td>
+            <td>CLUB HOUR / NPTEL (F201)</td>
+        </tr>
+    </table>
+
+</body>
+</html>
